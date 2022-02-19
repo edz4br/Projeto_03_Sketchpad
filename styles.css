@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    font-family: serif;
+    font-size: 50px;
+    font-style: italic;
+    color: rebeccapurple;
+    margin-top: -5px;
+}
+.game{
+    display: flex;
+    flex-flow: row wrap;
+}
+.clear{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 15px;
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+    outline: 2px solid black;
+    outline-offset: -5px;
+    height: 20px;
+    width: 40px;
+    margin-right: 50px;
+    margin-left: -80px;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-flow: column wrap;
+    border: 5px inset purple;
+    border-radius: 5px;
+}
+
+.sub-container{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1;
+}
+    
+   
+.grid{
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    height: auto;
+    width: auto;
+    aspect-ratio: 1/1;
+}
+
+.change{
+    background-color: rgb(72, 14, 231);
+    flex: 1;
+    height: auto;
+    width: auto;
+    aspect-ratio: 1/1;
+}
+
