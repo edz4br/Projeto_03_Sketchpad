@@ -1,1 +1,1 @@
-# game2-sketchpad
+# Project 3 - A sketchpad game.
